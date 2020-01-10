@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: pyxattr
+Version: 0.5.0
+Summary: Filesystem extended attributes for python
+Home-page: http://pyxattr.sourceforge.net/
+Author: Iustin Pop
+Author-email: iusty@k1024.org
+License: LGPL
+Description: This is a C extension module for Python which
+        implements extended attributes manipulation. It is a wrapper on top
+        of the attr C library - see attr(5).
+Platform: UNKNOWN
