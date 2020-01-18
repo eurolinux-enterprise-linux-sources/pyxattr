@@ -1,7 +1,7 @@
 Name:		pyxattr
 Summary:	Extended attributes library wrapper for Python
 Version:	0.5.1
-Release:	3%{?dist}
+Release:	5%{?dist}
 #license version is precised on a website
 License:	LGPLv2+
 Group:		Development/Libraries
@@ -39,6 +39,12 @@ CFLAGS="%{optflags}" %{__python} setup.py build
 %doc COPYING NEWS README
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.5.1-5
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.5.1-4
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.5.1-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
